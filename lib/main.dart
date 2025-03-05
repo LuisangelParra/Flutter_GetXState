@@ -2,12 +2,16 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'ui/pages/page1.dart';
 
+import 'package:f_getxstate_demo/ui/controllers/CountController.dart';
+
 void main() {
-  runApp(const MyApp());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  MyApp({super.key});
+
+  final countController = Get.put(CountController());
 
   @override
   Widget build(BuildContext context) {
