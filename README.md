@@ -11,7 +11,3 @@ Test with:
 ```bash
 flutter test
 ```
-
-
-Solved in:   
-https://github.com/augustosalazar/f_getx
